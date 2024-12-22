@@ -1,0 +1,141 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'course.css' %}">
+</head>
+<body>
+    <nav>
+        <button class="button" id="button1">🦁Mani coding school</button>
+        <a href="{%  url 'sheryians:home' %}"><button class="button" id="button2">home</button></a>
+        <button class="button" id="button3">courses</button>
+        <button class="button" id="button4">bootcamp</button>
+        <button class="button" id="button5">request callback</button>
+        <button id="button6">signup</button>
+    </nav>
+    <h1 id="h12">we're not a <span class="hil">course</span></h1>
+    <h1 id="f" class="hil">factory</h1>
+    <h1 id="h12">we focus on the courses that really help.</h1>
+    <h1 id="courseoffered">course which we do work</h1>
+<br>
+<div id="video2">
+    <div class="video-container">
+        <div id="video3" class="video"><iframe  class="video2_if" width="644" height="454" src="https://www.youtube.com/embed/GD0h-bUGHto" title="[ Course Launch 🚀 ] Front-End Domination: Create Anything with Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="money" id="money1">
+            <h1>Front-End Domination: Create Anything with Code</h1>
+            <button class="language">Hindi</button>
+            <h1 class="highlight1" id="dicount">Limited Time Discount</h1>
+            <h1 class="cost">₹4999 <strike  class ="strike">₹9999</strike>
+            <button class="off">50% OFF</button></h1>
+
+
+        </div></div>
+        <!-- <div class="video_button">View Details</div> -->
+    </div>
+    <div class="video-container">
+        <div id="video4" class="video"><iframe class="video2_if" width="574" height="404" src="https://www.youtube.com/embed/7GssthztFZs" title="Backend Domination | Complete Course | Sheryians" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="money" id="money2">
+            <h1>Back-End Domination: Create Effective Back-End</h1>
+            <button class="language">Hindi</button>
+            <h1 class="highlight1" id="dicount">Limited Time Discount</h1>
+            <h1 class="cost">₹5999 <strike  class ="strike">₹11999</strike>
+            <button class="off">50% OFF</button></h1>
+
+        </div>
+        </div>
+        <!-- <div class="video_button">View Details</div> -->
+    </div>
+    <div class="video-container">
+        <div id="video5" class="video"><iframe class="video2_if" width="574" height="404" src="https://www.youtube.com/embed/DVbvFQ1Awh8" title="Aptitude Reasoning for Campus Placements | Complete Course | Sheryians" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="money" id="money3">
+            <h1>Aptitude & Reasoning for Campus Placements</h1>
+            <button class="language">HINGLISH</button>
+            <h1 class="highlight1" id="dicount">Black Friday Sale</h1>
+            <h1 class="cost">₹999 <strike  class ="strike">₹1500</strike>
+            <button class="off">33% OFF</button></h1>
+
+        </div>
+        </div>
+        <!-- <div class="video_button">View Details</div> -->
+    </div>
+    <div class="video-container">
+        <div id="video6" class="video"><iframe class="video2_if" width="662" height="466" src="https://www.youtube.com/embed/MwSRNygjiKU" title="Java &amp; DSA Domination | Complete Course | Sheryians" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="money" id="money4">
+            <h1>Java & DSA Domination</h1>
+            <button class="language">HINGLISH</button>
+            <h1 class="highlight1" id="dicount">Limited Time Discount</h1>
+            <h1 class="cost">₹4999 <strike  class ="strike">₹9999</strike>
+            <button class="off">50% OFF</button></h1>
+
+
+        </div>
+    </div>
+        <!-- <div class="video_button">View Details</div> -->
+    </div>
+</div>
+<div id="v_button" class="v_button2">
+    <a href="{% url 'sheryians:video2' %}"><button class="video_button">View Details</button></a>
+    <a href="{% url 'sheryians:video3' %}"><button class="video_button">View Details</button></a>
+    <a href="{% url 'sheryians:video4' %}"><button class="video_button">View Details</button></a>
+    <a href="{% url 'sheryians:video2' %}"><button class="video_button">View Details</button></a>
+</div>
+
+<div id="v_button3">
+    <img id="video_img" src="{%static 'media/images/undefined-maxresdefault_5-AHh9_1Y.jpg' %}" >
+    <div class="money" id="money5">
+        <h1 class="course_off">Three.js Domination</h1>
+        <button class="language">Hindi</button>
+        <h1 class="highlight1" id="dicount">Limited Time Discount</h1>
+        <h1 class="cost">₹2499 <strike  class ="strike">₹3500</strike>
+        <button class="off">29% OFF</button></h1>
+
+    </div>
+
+</div>
+<div id="v_button4">
+    <div class="video_button2">View Details</div>
+    <div id="footer">
+        <hr class="h">
+        <div  id="lion">
+            <h1>🦁</h1>
+            <h1 id="connect">Lets connect with our socity </h1>
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (7).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (1).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (2).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (3).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (4).png' %}" alt="">
+        
+        </div>
+        <div class="footer_div" id="">
+            <h1 class="c">COMPANY</h1>
+            <p class="p">About us</p>
+            <p class="p">Support</p>
+            <p class="p">Privacy policy</p>
+            <p class="p">Terms and conditions</p>
+            <p class="p">Pricing and refund</p>
+            <p class="p">Hire from us</p>
+            <p class="p">Bug bounty</p>
+        </div>
+        <div class="footer_div" id="">
+            <h1 class="c">COMMUNITY</h1>
+            <p class="p">Inertia</p>
+            <p class="p">Discord</p>
+        </div>
+        <div class="footer_div" id="">
+            <h1 class="c">GET IN TOUCH</h1>
+            <p class="p">+91 8109161752</p>
+            <p class="p">+91 8109162531</p>
+            <p class="p">hello@sheryians.com</p>
+            <p class="p">23-b,indrapur sector c,bhopal(mp),462021</p>
+        </div>
+        <hr class="h">
+</div>
+<div class="copyright-section">
+    <h1 class="copy">Copyright © 2024 Sheryians Pvt. Ltd.</h1>
+    <h1 class="copy">All Rights Reserved</h1>
+</div>
+</bodY> 
+</html>

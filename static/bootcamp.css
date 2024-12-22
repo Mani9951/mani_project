@@ -1,0 +1,194 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+@font-face {
+    font-family: "NeueMachinaRegular";
+    src: url(../static/font/NeueMachinaRegular.otf);
+}
+body{
+    background-color:rgb(12,12,12);
+    width: 100%;
+}
+nav{
+    /* background-color:white; */
+    width: 100%;
+    height: 50px;
+    position:relative;
+
+}
+/* div{
+    height: 100%;
+} */
+.button{
+    background: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family:NeueMachinaRegular ;
+}
+#button1{
+    margin-left: 80px;
+}
+#button2{
+    margin-left: 300px;
+}
+#button3,#button4,#button5{
+    margin-left: 60px;
+}
+#button6{
+    background-color: rgb(36, 207, 166);
+    border-radius: 10px;
+    color: white;
+    margin-left: 70px;
+    font-size: 20px;
+    width: 80px;
+}
+/* #big{
+    width: 1400px;
+    height: 600px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+#bigd{
+    width: 650px;
+    height: 550;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+} */
+#big{
+    width:1400px;
+    height:600px;
+    /* background-color:white; */
+    /* background-color: white; */
+    margin-left: 50px;
+    /* margin-right: 60px; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;  
+    
+}
+.bigd{
+width: 650px;
+height: 550px;
+background-color: black;
+margin-top: 20px;
+}
+#video{
+    height: 550px;
+}
+.white{
+    color: white;
+}
+#fo{
+    font-size: 45px;
+}
+.b{
+    color: white;
+    background-color: rgb(33, 33, 33);
+    margin-top: 30px;
+    font-size: 25px;
+}
+#on{
+    margin-top: 35px;
+    font-size: 35px;
+}
+.hil{
+    color: rgb(36, 207, 166);
+    font-size: 40px;
+}
+#buy{
+    background-color: rgb(36, 207, 166);
+    width: 170px;
+    height: 35px;
+    border-radius: 7px;
+    margin-top: 25px;
+}
+#do{
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+#footer{
+    width:1400px;
+    height:500px;
+    background-color: black;
+    /* background-color: white; */
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;  
+    position: relative;
+    padding-bottom: 30px;
+    
+}
+.footer_div{
+width: 230px;
+height: 400px;
+background-color: black;
+}
+#connect{
+    color: white;
+    font-size: 16px;
+    margin-top: 13px;
+}
+#lion{
+    width: 320px;
+    height: 400px;
+    background-color: black;
+    margin-top: 20px;
+}
+#foot_img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.c{
+    color: white;
+    margin-top: 25PX;
+    font-size: 20px;
+}
+.p {
+    color: white; 
+    margin-top: 20px;
+}
+
+.p:hover {
+    color: rgb(36, 207, 166); 
+}
+.h {
+    border: none; 
+    border-top: 3px solid white; 
+    width: 100%;
+    margin: 20px 0; 
+}
+.copyright-section {
+    text-align: center; 
+    margin-top: 20px; 
+    /* background-color: white; */
+    /* margin-left: 300px; */
+    width: 900px;
+}
+
+.copy {
+    color: white;
+    font-size: 15px;
+    margin: 5px 0; 
+    line-height: 1.5;
+    margin-left: 600px;
+}

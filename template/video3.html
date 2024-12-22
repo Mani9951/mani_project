@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'video3.css' %}">
+</head>
+<body>
+    <nav>
+        <button class="button" id="button1">🦁Mani coding school</button>
+        <a href="{%  url 'sheryians:home' %}"><button class="button" id="button2">home</button></a>
+        <a href="{% url 'sheryians:course' %}"><button class="button" id="button3">courses</button></a>
+        <button class="button" id="button4">bootcamp</button>
+        <button class="button" id="button5">request callback</button>
+        <button id="button6">signup</button>
+    </nav>
+    <div id="big">
+        <div class="bigd">
+            <h1 id="fo" class="white">Backend Domination-Create Scalable & Secure Backend.</h1>
+            <button class="b">Backend Developement</button>
+            <button class="b">Logic Building</button>
+            <h1 id="on" class="white">only <span class="hil">₹5999*</span></h1>
+            <button id="buy">Buy Now-Start Learning</button>
+            <h1 id="do" class="white">Ready to rule the digital world? Learn to build powerful back-ends that drive websites and apps smoothly. From databases to security, we cover it all.
+            </h1>
+
+        </div>
+        <div class="bigd">
+            <iframe width="702" height="494" src="https://www.youtube.com/embed/7GssthztFZs" title="Backend Domination | Complete Course | Sheryians" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </div>
+
+
+    </div>
+    <div id="footer">
+        <hr class="h">
+        <div  id="lion">
+            <h1>🦁</h1>
+            <h1 id="connect">Lets connect with our socity </h1>
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (7).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (1).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (2).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (3).png' %}" alt="">
+            <img id="foot_img" src="{% static 'media/images/pngwing.com (4).png' %}" alt="">
+        
+        </div>
+        <div class="footer_div" id="">
+            <h1 class="c">COMPANY</h1>
+            <p class="p">About us</p>
+            <p class="p">Support</p>
+            <p class="p">Privacy policy</p>
+            <p class="p">Terms and conditions</p>
+            <p class="p">Pricing and refund</p>
+            <p class="p">Hire from us</p>
+            <p class="p">Bug bounty</p>
+        </div>
+        <div class="footer_div" id="">
+            <h1 class="c">COMMUNITY</h1>
+            <p class="p">Inertia</p>
+            <p class="p">Discord</p>
+        </div>
+        <div class="footer_div" id="">
+            <h1 class="c">GET IN TOUCH</h1>
+            <p class="p">+91 8109161752</p>
+            <p class="p">+91 8109162531</p>
+            <p class="p">hello@sheryians.com</p>
+            <p class="p">23-b,indrapur sector c,bhopal(mp),462021</p>
+        </div>
+        <hr class="h">
+</div>
+<div class="copyright-section">
+    <h1 class="copy">Copyright © 2024 Sheryians Pvt. Ltd.</h1>
+    <h1 class="copy">All Rights Reserved</h1>
+</div>
+</body>
+</html>

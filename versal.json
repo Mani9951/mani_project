@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "mani_project/wsgi.py",
+        "src": "my10thproject/wsgi.py",
         "use": "@vercel/python",
         "config": {
           "maxLambdaSize": "15mb",
@@ -20,7 +20,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "mani_project/wsgi.py"  
+        "dest": "my10thproject/wsgi.py"  
       }
     ],
     "outputDirectory": "static"

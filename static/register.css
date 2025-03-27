@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.register-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.register-container h1 {
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4b2b;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Input Group */
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px 12px 40px; /* Adjust padding for icon */
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Gender Selection */
+.gender-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gender-selection label {
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Button Styling */
+.register-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.register-container button:hover {
+    background: linear-gradient(to right, #66a6ff, #89f7fe);
+    color: #333;
+}
+
+/* Messages */
+.message {
+    margin-top: 15px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Login Link */
+.register-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-container a {
+    color: #ff4b2b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}

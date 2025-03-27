@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🦁Mani</title>
     <link rel="stylesheet" href="{% static 'home.css' %}">
 
 
@@ -15,8 +15,16 @@
         <a href="{%  url 'sheryians:home' %}"><button class="button" id="button2">home</button></a>
         <a href="{% url 'sheryians:course' %}"><button class="button" id="button3">courses</button></a>
         <a href="{% url 'sheryians:bootcamp' %}"><button class="button" id="button4">bootcamp</button></a>
-        <button class="button" id="button5">request callback</button>
-        <button id="button6">signup</button>
+        {% if user.is_authenticated %}
+        <a href="{% url 'account:logout' %}"><button class="button" id="button5">logout</button></a>
+        {% else %}
+       <a  href="{% url 'account:login' %}"> <button class="button" id="button5">login</button></a>
+        {% endif %}
+        {% if user.is_authenticated %}
+        <button id="button6" class="button">{{ user.username }}</button>
+        {% else %}
+        <a  href="{% url 'account:register' %}"><button class="button" id="button6">register</button></a>
+        {% endif %}
     </nav>
     <div id="head">
         <h1  class="font" id="h1">we only <span class="highlight">tech</span></h1>
@@ -60,7 +68,7 @@
             <button class="language">Hindi</button>
             <h1 class="highlight1" id="dicount">Limited Time Discount</h1>
             <h1 class="cost">₹4999 <strike  class ="strike">₹9999</strike>
-            <button class="off">50% OFF</button></h1>
+            <button class="off">{{ front.discount }} OFF</button></h1>
 
 
         </div></div>

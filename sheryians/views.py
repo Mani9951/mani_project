@@ -1,9 +1,16 @@
 from django.shortcuts import render
+from .models import Frontend
 
 
 # Create your views here.
 def home(request):
-    return render(request, 'home.html')
+    front = Frontend(
+        des="Frontend Development",
+        language="HTML, CSS, JavaScript",
+        discount="60%",
+        price=4999
+    )
+    return render(request, 'home.html',{'front': front})
 def course(request):
     return render(request, 'courses.html')
 def video2(request):
